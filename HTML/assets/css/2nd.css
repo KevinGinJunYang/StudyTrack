@@ -1,0 +1,162 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+@media print {
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  img {
+    max-width: 100% !important;
+
+  }
+  select {
+    background: #fff !important;
+  }
+
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #0000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+
+  
+}
+.col-md-1, .col-md-3, .col-md-4, .col-md-6, .col-xs-6, .col-md-8, .col-md-10, .col-md-12{
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.col-xs-6 {
+  width: 50%;
+  float:left;
+}
+
+  .col-md-1, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-10, .col-md-12 {
+    float: right;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-10 {
+    width: 83.3%;
+  }
+
+  .col-md-8 {
+    width: 66.6%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-4 {
+    width: 33.3%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-1 {
+    width: 8.3%;
+
+  }
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+
+.img{
+	border-bottom:solid;
+	border-width: 5px;
+}
+.container:before,
+.container:after,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.container:after,
+.modal-footer:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+
+.itemactive { 
+ height: 50%
+}
